@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Ted-Mohamed/postcss-precision.git"
   },
+  "keywords": [
+      "postcss-plugin"
+  ],
   "author": "Mohamed Ted Meftah <contact@mohamed-ted.me> (http://mohamed-ted.me)",
   "license": "MIT",
   "bugs": {
