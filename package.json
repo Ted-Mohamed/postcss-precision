@@ -11,7 +11,9 @@
     "url": "git+https://github.com/Ted-Mohamed/postcss-precision.git"
   },
   "keywords": [
-      "postcss-plugin"
+      "postcss-plugin",
+      "precision",
+      "float"
   ],
   "author": "Mohamed Ted Meftah <contact@mohamed-ted.me> (http://mohamed-ted.me)",
   "license": "MIT",
