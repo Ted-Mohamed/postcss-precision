@@ -1,6 +1,6 @@
 {
   "name": "postcss-precision",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Round CSS numbers",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
     "url": "git+https://github.com/Ted-Mohamed/postcss-precision.git"
   },
   "keywords": [
-      "postcss-plugin",
-      "precision",
-      "float"
+    "postcss-plugin",
+    "precision",
+    "float"
   ],
   "author": "Mohamed Ted Meftah <contact@mohamed-ted.me> (http://mohamed-ted.me)",
   "license": "MIT",
