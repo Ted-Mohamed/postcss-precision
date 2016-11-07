@@ -13,13 +13,11 @@ module.exports = postcss.plugin('postcss-precision', options => {
                 if (decl.value) {
                     let value = decl.value
                     let matches
-                    console.log(value)
-                    while ((matches = isFloat.exec(value)) !== null) {
+                    while ((matches = isFloat.exec(decl.value)) !== null) {
                         const rounded = Math.round(parseFloat(matches[1]) * precision) / precision
-                        console.log(rounded)
-                        value.replace(matches[1], rounded.toString())
+                        value = value.replace(matches[1], rounded.toString())
                     }
-                    rule.insertBefore(decl, { prop: decl.prop, value: value })
+                    decl.value = value
                 }
             })
         })
